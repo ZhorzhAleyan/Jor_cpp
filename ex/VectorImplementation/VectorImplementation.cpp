@@ -35,11 +35,6 @@ class vector{
         return capacity;
     }
 
-    T& operator[](const size_t index)
-    {
-        return data[index];
-    }
-
     const T& operator[](const size_t index) const
     {
         return data[index];
