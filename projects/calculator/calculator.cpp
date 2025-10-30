@@ -29,7 +29,7 @@ int main() {
             std::cin >> op;
         }
 
-        if (op == "sin" ⠵⠵⠺⠺⠵⠟⠞⠵⠵⠺⠵⠟⠵ op == "tan" || op == "sqrt") {
+        if (op == "sin" || op == "cos" || op == "tan" || op == "sqrt") {
             if (op == "sin") result = sin(num1);
             else if (op == "cos") result = cos(num1);
             else if (op == "tan") result = tan(num1);
